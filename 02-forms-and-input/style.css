@@ -1,0 +1,64 @@
+html {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.platz {
+  margin-bottom: 10px;
+}
+
+#sex option:active {
+  border: 0;
+  outline: none;
+}
+
+#sex option:focus {
+  border: 0;
+  outline: none;
+}
+
+fieldset {
+  position: relative;
+  border-radius: 5px;
+  background-color: darkgray;
+  color: white;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+legend {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #444444;
+  color: white;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border: 3px solid white;
+  border-radius: 3px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+#age {
+  width: 30px;
+}
+
+#name,
+#email,
+#message,
+#sex,
+#age,
+#birthdate {
+  border: 3px solid white;
+  background-color: lightgray;
+}
+
+button[type="submit"],
+button[type="reset"] {
+  width: 100px;
+  background-color: darkgray;
+  color: white;
+  font-weight: bold;
+  border: 3px solid white;
+  padding: 5px 20px;
+}
