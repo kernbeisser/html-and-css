@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* ANCHOR Block Element -> Inline Element */
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #333333;
+  padding-right: 20px;
+}
+
+/* ANCHOR Inline Element -> Block Element */
+
+img {
+  display: block;
+  margin: auto;
+}
+
+/* ANCHOR Block Element -> Inline-Block Element */
+
+.box {
+  width: 30%;
+  display: inline-block;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
