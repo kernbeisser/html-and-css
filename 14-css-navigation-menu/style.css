@@ -1,0 +1,62 @@
+html {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+
+/* ANCHOR Navbar */
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #4c6ca0;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.navbar li {
+  float: left;
+  font-size: 1.3em;
+}
+
+.navbar li a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px 20px;
+}
+
+.navbar li a:hover {
+  background-color: #446190;
+  color: #f4f4f4;
+}
+
+/* ANCHOR Side Menu */
+.side-menu {
+  width: 200px;
+  list-style: none;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.side-menu li {
+  font-size: 1.3em;
+  line-height: 2.4em;
+  border-bottom: 1px dashed #dddddd;
+}
+
+.side-menu li:last-child {
+  border: none;
+}
+
+.side-menu li a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.side-menu li a:hover {
+  color: crimson;
+  font-size: 1.2em;
+  transition: 0.4s ease-in-out;
+}
