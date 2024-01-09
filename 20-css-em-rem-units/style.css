@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  text-align: center;
+  background-color: #333333;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 1.6rem;
+  padding: 1.6rem;
+}
+
+h3 {
+  margin: 1.6rem;
+  padding: 1.6rem;
+  font-size: 2rem;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin: 1.6rem;
+  padding: 1rem;
+}
+
+.box-1 {
+  width: 90%;
+  height: 30%;
+  background-color: rebeccapurple;
+  margin: 2rem auto;
+  border: 3px solid white;
+}
+
+.box-2 {
+  width: 90%;
+  height: 30%;
+  background-color: orange;
+  margin: 2rem auto;
+  border: 3px solid white;
+}
